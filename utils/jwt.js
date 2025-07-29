@@ -32,7 +32,7 @@ const generateAccessToken = (user) => {
     type: 'access'
   };
   
-  return generateToken(payload, '1h'); // Access token expires in 1 hour
+  return generateToken(payload, '10s'); // Access token expires in 10seconds
 };
 
 /**
