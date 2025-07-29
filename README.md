@@ -37,7 +37,12 @@ A robust JWT-based authentication server built with Express.js and MongoDB. This
 
 3. **Set up environment variables**
    
-   Create a `.env` file in the root directory:
+   Copy the example file and configure your environment:
+   ```bash
+   cp env.example .env
+   ```
+   
+   Then edit the `.env` file with your actual configuration:
    ```env
    # Server Configuration
    PORT=5000
